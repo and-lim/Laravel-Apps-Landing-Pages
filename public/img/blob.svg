@@ -1,0 +1,29 @@
+
+  <svg
+    width="1000"
+    height="1000"
+    viewBox="0 0 1000 1000"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <defs>
+      
+      
+      
+      
+      
+      
+      
+      <clipPath id="shape">
+        <path fill="currentColor" d="M642,672Q302,844,305.5,507Q309,170,645.5,335Q982,500,642,672Z"></path>
+      </clipPath>
+    </defs>
+  
+    
+
+    <g  clip-path="url(#shape)">
+      <path fill="#444cf7" d="M642,672Q302,844,305.5,507Q309,170,645.5,335Q982,500,642,672Z" />
+    </g>
+
+    
+  
+  </svg>
