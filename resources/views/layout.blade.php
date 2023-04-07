@@ -25,13 +25,13 @@
     <link href="../../lib/owl/owl.carousel.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
-    <link rel="stylesheet" href="../../css/animate.css">
+    <link rel="stylesheet" href="css/animate.css">
     
     <!-- Bootstrap -->
-    <link rel="stylesheet" href="../../css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
 
-    <!-- Template Stylesheet -->
-    <link href="../../css/style.css" rel="stylesheet">
+    <!-- Custom Css -->
+    <link href="css/style.css" rel="stylesheet">
 </head>
 
 <body class="">
@@ -132,7 +132,7 @@
                 <script src="lib/waypoints/waypoints.min.js"></script>
                 <script src="lib/counterup/counterup.min.js"></script>
                 <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
-                <script src="../../lib/owl/owl.carousel.min.js"></script>
+                <script src="lib/owl/owl.carousel.min.js"></script>
                 <script src="https://kit.fontawesome.com/6d5647a785.js" crossorigin="anonymous"></script>
                 <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
                
