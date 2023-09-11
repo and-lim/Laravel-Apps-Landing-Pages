@@ -27,7 +27,7 @@
             <div class="row g-4 d-flex justify-content-center">
                 <div class="col-lg-4 col-md-6 wow bounceInLeft" data-wow-delay="0.1s">
                     <div class="price-item rounded overflow-hidden">
-                        <div class="bg-dark p-4 text-center">
+                        <div class="bg-dark card-header p-4 text-center">
                             <h4 class="text-white mt-2">Standard</h4>
                             <div class="text-white">
                                 <span class="align-top fs-4 fw-bold">$</span>
@@ -49,7 +49,7 @@
                 </div>
                 <div class="col-lg-4 col-md-6 wow bounceInUp" data-wow-delay="0.5s">
                     <div class="price-item rounded overflow-hidden">
-                        <div class="bg-primary p-4 text-center">
+                        <div class="card-header bg-primary p-4 text-center">
                             <h4 class="text-white mt-2">Professional</h4>
                             <div class="text-white">
                                 <span class="align-top fs-4 fw-bold">$</span>
@@ -71,7 +71,7 @@
                 </div>
                 <div class="col-lg-4 col-md-6 wow bounceInRight" data-wow-delay="0.8s">
                     <div class="price-item rounded overflow-hidden">
-                        <div class="bg-dark p-4 text-center">
+                        <div class="card-header bg-dark p-4 text-center">
                             <h4 class="text-white mt-2">Ultimate</h4>
                             <div class="text-white">
                                 <span class="align-top fs-4 fw-bold">$</span>
@@ -93,7 +93,7 @@
                 </div>
                 <div class="col-lg-4 col-md-6 wow bounceInRight" data-wow-delay="0.8s">
                     <div class="price-item rounded overflow-hidden">
-                        <div class="bg-dark p-4 text-center">
+                        <div class="card-header bg-dark p-4 text-center">
                             <h4 class="text-white mt-2">Ultimate</h4>
                             <div class="text-white">
                                 <span class="align-top fs-4 fw-bold">$</span>
@@ -123,7 +123,7 @@
                         <div class="bg-warning p-2 text-center">
                             <h5 class="apps-text fw-bolder"> Best Offer !</h5>
                         </div>
-                        <div class="bg-dark p-4 text-center">
+                        <div class="card-header bg-dark p-4 text-center">
                             <h4 class="text-white mt-2">Ultimate</h4>
                             <div class="text-white">
                                 <span class="align-top fs-4 fw-bold">$</span>

@@ -14,7 +14,7 @@
                     <button type="button" class="btn btn-primary rounded-pill py-2 px-3 shadow-none position-absolute top-0 end-0 m-2">Try Now</button>
                 </div>
             </div>
-            <div class="col-lg-6 img-animate text-center text-lg-start">
+            <div class="col-lg-6 text-center text-lg-start">
                 <div class="swiper pb-5 wow animate__animated animate__zoomIn" data-wow-delay="1s">
                     <!-- Additional required wrapper -->
                     <div class="swiper-wrapper">
@@ -411,7 +411,7 @@
 
 
         <!-- Facts Start -->
-        <div class="container-xxl bg-primary my-6 py-6 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container-fluid bg-primary my-6 py-6 wow fadeInUp" data-wow-delay="0.1s">
             <div class="container">
                 <div class="row g-4">
                     <div class="col-md-6 col-lg-3 text-center wow fadeIn" data-wow-delay="0.1s">
@@ -490,7 +490,7 @@
                 <div class="row g-4">
                     <div class="col-lg-4 col-md-6 wow bounceInLeft" data-wow-delay="0.1s">
                         <div class="price-item rounded overflow-hidden">
-                            <div class="bg-dark p-4 text-center">
+                            <div class="card-header bg-dark p-4 text-center">
                                 <h4 class="text-white mt-2">Standard</h4>
                                 <div class="text-white">
                                     <span class="align-top fs-4 fw-bold">$</span>
@@ -512,7 +512,7 @@
                     </div>
                     <div class="col-lg-4 col-md-6 wow bounceInUp" data-wow-delay="0.5s">
                         <div class="price-item rounded overflow-hidden">
-                            <div class="bg-primary p-4 text-center">
+                            <div class="card-header bg-primary p-4 text-center">
                                 <h4 class="text-white mt-2">Professional</h4>
                                 <div class="text-white">
                                     <span class="align-top fs-4 fw-bold">$</span>
@@ -534,7 +534,7 @@
                     </div>
                     <div class="col-lg-4 col-md-6 wow bounceInRight" data-wow-delay="0.8s">
                         <div class="price-item rounded overflow-hidden">
-                            <div class="bg-dark p-4 text-center">
+                            <div class="card-header bg-dark p-4 text-center">
                                 <h4 class="text-white mt-2">Ultimate</h4>
                                 <div class="text-white">
                                     <span class="align-top fs-4 fw-bold">$</span>

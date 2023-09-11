@@ -25,13 +25,13 @@
     <link href="../../lib/owl/owl.carousel.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
-    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="{{ URL::asset('css/animate.css'); }} ">
     
     <!-- Bootstrap -->
-    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="{{ URL::asset('css/bootstrap.css'); }} ">
 
     <!-- Custom Css -->
-    <link href="css/style.css" rel="stylesheet">
+    <link href="{{ URL::asset('css/style.css'); }} " rel="stylesheet">
 </head>
 
 <body class="">
@@ -125,150 +125,154 @@
                 <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
 
                 <!-- JavaScript Libraries -->
-                <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-                <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
-                <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js" integrity="sha512-Eak/29OTpb36LLo2r47IpVzPBLXnAMPAVypbSZiZ4Qkf8p/7S/XRG5xp7OKWPPYfJT6metI+IORkR5G8F900+g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-                <script src="lib/easing/easing.min.js"></script>
-                <script src="lib/waypoints/waypoints.min.js"></script>
-                <script src="lib/counterup/counterup.min.js"></script>
-                <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
-                <script src="lib/owl/owl.carousel.min.js"></script>
-                <script src="https://kit.fontawesome.com/6d5647a785.js" crossorigin="anonymous"></script>
-                <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js" integrity="sha512-Eak/29OTpb36LLo2r47IpVzPBLXnAMPAVypbSZiZ4Qkf8p/7S/XRG5xp7OKWPPYfJT6metI+IORkR5G8F900+g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="lib/easing/easing.min.js"></script>
+<script src="lib/waypoints/waypoints.min.js"></script>
+<script src="lib/counterup/counterup.min.js"></script>
+<script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+<script src="lib/owl/owl.carousel.min.js"></script>
+<script src="https://kit.fontawesome.com/6d5647a785.js" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
                
                 <!-- Template Javascript -->
-                <script src="../../js/main.js"></script>
-                <script>
-                    const swiper = new Swiper('.swiper', {
-                        // Optional parameters
-                        // direction: 'vertical',   
-                        loop: true,
-                
-                        // autoplay
-                        autoplay: {
-                        delay: 1000,
-                        disableOnInteraction: false,
-                        },
-                        
-                        // If we need pagination
-                        pagination: {
-                            el: '.swiper-pagination',
-                        },
-                
-                        // Navigation arrows
-                        navigation: {
-                            nextEl: '.swiper-button-next',
-                            prevEl: '.swiper-button-prev',
-                        },
-                
-                        // And if we need scrollbar
-                        // scrollbar: {
-                        // 	el: '.swiper-scrollbar',
-                        // },
-                    });
+<script src="{{ URL::asset('js/main.js'); }} "></script>
+<script src="{{ URL::asset('js/vanilla-tilt.min.js'); }}"></script>
+<script>
+    const swiper = new Swiper('.swiper', {
+        // Optional parameters
+        // direction: 'vertical',   
+        loop: true,
 
-                </script>
-                
-            
-                <script>
-                        $(".testimonial-carousel").owlCarousel({
-                            stagePadding: 50,
-                    autoplay: true,
-                    smartSpeed: 1000,
-                    margin: 25,
-                    dots: true,
-                    loop: true,
-                    nav : true,
-                    navText : [
-                        '<i class="bi bi-chevron-left"></i>',
-                        '<i class="bi bi-chevron-right"></i>'
-                    ],
-                    responsive: {
-                        0:{
-                            items:1
-                        },
-                        992:{
-                            items:2
-                            
-                        }
-                    }
-                });
-                
-                $('.item-carousel').owlCarousel({
-                    loop:true,
-                    margin:10,
-                    autoplay:true,
-                    nav:false,
-                    // navText:[
-                    // '<i class="bi bi-chevron-left"></i>',
-                    //  '<i class="bi bi-chevron-right"></i>'
-                    // ],
-                    responsive:{
-                        0:{
-                            items:1
-                        },
-                        600:{
-                            items:1
-                        },
-                        1000:{
-                            items:1
-                        }
-                    }
-                    });
-                </script>
-            
-            
-            <script>
-                $(document).ready(function(){
-                $(".owl-carousel").owlCarousel();
-              });
-              </script>
-            
-                <script>
-                    $('.owl-carousel').owlCarousel({
-                loop:true,
-                margin:10,
-                autoplay:true,
-                nav:true,
-                navText:[
-                '<i class="bi bi-chevron-left"></i>',
-                 '<i class="bi bi-chevron-right"></i>'
-                ],
-                responsive:{
-                    0:{
-                        items:1
-                    },
-                    600:{
-                        items:1
-                    },
-                    1000:{
-                        items:1
-                    }
-                }
-            })
-            
-                </script>
-            
-            
-            
-            <!-- Add this script for successful
-                implementation of typed.js -->
-            <script>
-                if ($(".text-slider").length == 1) {
-                    
-                    var typed_strings =
-                        $(".text-slider-items").text();
-            
-                    var typed = new Typed(".text-slider", {
-                        strings: typed_strings.split(", "),
-                        typeSpeed: 50,
-                        loop: true,
-                        backDelay: 900,
-                        backSpeed: 30,
-                    });
-                }
-            </script>
-            
+        // autoplay
+        autoplay: {
+        delay: 1000,
+        disableOnInteraction: false,
+        },
         
+        // If we need pagination
+        pagination: {
+            el: '.swiper-pagination',
+        },
+
+        // Navigation arrows
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+
+        // And if we need scrollbar
+        // scrollbar: {
+        // 	el: '.swiper-scrollbar',
+        // },
+    });
+
+</script>
+                
+            
+<script>
+        $(".testimonial-carousel").owlCarousel({
+            stagePadding: 50,
+    autoplay: true,
+    smartSpeed: 1000,
+    margin: 25,
+    dots: true,
+    loop: true,
+    nav : true,
+    navText : [
+        '<i class="bi bi-chevron-left"></i>',
+        '<i class="bi bi-chevron-right"></i>'
+    ],
+    responsive: {
+        0:{
+            items:1
+        },
+        992:{
+            items:2
+            
+        }
+    }
+    });
+
+    $('.item-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    autoplay:true,
+    nav:false,
+    // navText:[
+    // '<i class="bi bi-chevron-left"></i>',
+    //  '<i class="bi bi-chevron-right"></i>'
+    // ],
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:1
+        },
+        1000:{
+            items:1
+        }
+    }
+    });
+</script>
+            
+            
+<script>
+    $(document).ready(function(){
+    $(".owl-carousel").owlCarousel();
+  });
+  </script>
+
+<script>
+        $('.owl-carousel').owlCarousel({
+        loop:true,
+        margin:10,
+        autoplay:true,
+        nav:true,
+        navText:[
+        '<i class="bi bi-chevron-left"></i>',
+        '<i class="bi bi-chevron-right"></i>'
+        ],
+        responsive:{
+            0:{
+                items:1
+            },
+            600:{
+                items:1
+            },
+            1000:{
+                items:1
+            }
+        }
+    })
+
+</script>
+<script>
+    if ($(".text-slider").length == 1) {
+        
+        var typed_strings =
+            $(".text-slider-items").text();
+
+        var typed = new Typed(".text-slider", {
+            strings: typed_strings.split(", "),
+            typeSpeed: 50,
+            loop: true,
+            backDelay: 900,
+            backSpeed: 30,
+        });
+    }
+</script>
+
+<script>
+    VanillaTilt.init(document.querySelectorAll(".price-item, .test-card , .feature-item, .testimonial-card"),{
+      glare: true,
+      reverse: true,
+      transition: true,
+      "max-glare": 0.5
+    });
+  </script>
+                    
 </body>            
 </html>
